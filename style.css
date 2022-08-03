@@ -1,8 +1,65 @@
-body {
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif; 
+} 
+
+header{
+  background-color: lightgreen;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 10px 50px;
+  border: 1px solid black;
+}
+
+ul li a{
+  background-color: black;
+  color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     background: blue;
   }
   body {
     margin: 0px auto;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+} */
+
